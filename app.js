@@ -29,19 +29,15 @@ function mostrarAmigos() {
 
 // Función para sortear un amigo al azar
 function sortearAmigo() {
-    // 1. Validar que haya amigos en el array
     if (amigos.length === 0) {
         alert("No hay amigos disponibles para sortear.");
         return;
     }
 
-    // 2. Generar un índice aleatorio
     const indiceAleatorio = Math.floor(Math.random() * amigos.length);
 
-    // 3. Obtener el nombre sorteado
     const amigoSorteado = amigos[indiceAleatorio];
 
-    // 4. Mostrar el resultado en la lista de resultados
     const resultado = document.getElementById("resultado");
     resultado.innerHTML = `<li>El amigo secreto es: <strong>${amigoSorteado}</strong></li>`;
 }
