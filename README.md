@@ -10,3 +10,13 @@ Un proyecto simple en **HTML, CSS y JavaScript** que permite a los usuarios agre
 - Sortear un amigo secreto de manera aleatoria.
 - Mostrar el resultado en pantalla.
 
+---
+
+## Instalación y Uso
+1. Clonar este repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/amigo-secreto.git
+
+2. Abrir el proyecto en tu editor de código preferido.
+
+3. Ejecutar el archivo index.html en el navegador.
