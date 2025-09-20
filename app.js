@@ -3,21 +3,31 @@ let amigos = [];
 
 // Función para agregar amigos
 function agregarAmigo() {
-    // 1. Capturar el valor del campo de entrada
     const input = document.getElementById("amigo");
     const nombre = input.value.trim();
 
-    // 2. Validar la entrada
     if (nombre === "") {
         alert("Por favor, inserte un nombre.");
         return;
     }
 
-    // 3. Actualizar el array de amigos
     amigos.push(nombre);
-
-    // 4. Limpiar el campo de entrada
     input.value = "";
 
-    console.log(amigos); // Para verificar en consola que funciona
+    mostrarAmigos();
+}
+
+// Función para mostrar los amigos en la lista HTML
+function mostrarAmigos() {
+    // 1. Obtener el elemento de la lista
+    const lista = document.getElementById("listaAmigos");
+
+    // 2. Limpiar la lista existente
+    lista.innerHTML = "";
+
+    // 3. Iterar sobre el arreglo amigos
+    for (let i = 0; i < amigos.length; i++) {
+        // 4. Crear un nuevo elemento <li> por cada amigo
+        lista.innerHTML += `<li>${amigos[i]}</li>`;
+    }
 }
