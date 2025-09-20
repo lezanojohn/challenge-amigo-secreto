@@ -10,11 +10,3 @@ Un proyecto simple en **HTML, CSS y JavaScript** que permite a los usuarios agre
 - Sortear un amigo secreto de manera aleatoria.
 - Mostrar el resultado en pantalla.
 
----
-
-## Estructura del Proyecto
-.
-├── index.html # Página principal
-├── style.css # Estilos del proyecto
-├── app.js # Lógica en JavaScript
-└── assets/ # Imágenes e íconos utilizados
