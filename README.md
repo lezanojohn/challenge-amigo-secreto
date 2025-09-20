@@ -13,6 +13,7 @@ Un proyecto simple en **HTML, CSS y JavaScript** que permite a los usuarios agre
 ---
 
 ## Estructura del Proyecto
+.
 ├── index.html # Página principal
 ├── style.css # Estilos del proyecto
 ├── app.js # Lógica en JavaScript
